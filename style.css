@@ -1,0 +1,383 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    font-family: "SoDo Sans SemiBold",Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 0;
+}
+.content-column{
+    margin: 0 40px 0 40px;
+}
+
+div{
+    display: block;
+}
+.starbucks{
+    z-index: 3;
+    display: block;
+    position: relative;
+    
+}
+.navbar{
+    background-color: white;
+    box-shadow: 2px 2px 2px   rgba(0, 0, 0,0.1);
+    display: block;
+    height: 99px;
+    width: 100%;
+}
+.header{
+    padding: 0 40px 0 40px;
+}
+.flex-header{
+    display: flex;
+    align-items: center;
+    
+}
+.logo-starbucks{
+    width: 51px;
+    height: auto;
+    margin: 24px 40px 24px 0;
+}
+.flex-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+.top-left{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    font-size: 13.5px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    align-items: center;
+}
+.top-left ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.top-left ul li{
+    display: inline-block;
+    text-align: center;
+}
+.top-right-list ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.top-right-list ul li{
+    display: inline-block;
+    text-align: center;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    padding-right: 16px;
+    transition: 0.3s;
+}
+.location:hover{
+    color: rgba(1, 111, 1, 0.888);
+}
+
+.loct{
+    padding-right: 8px;
+}
+.link-top-left{
+    text-decoration: none;
+}
+.link-top-left:hover{
+    color: rgba(1, 111, 1, 0.888);
+}
+.list-1-2{
+    margin-left: 24px;
+    
+}
+.top-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    justify-content: end;
+    font-size: 14px;
+    font-weight: 600;
+}
+.top-right-flex{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+}
+.top-right-list a{
+    text-decoration: none;
+    align-items: center;
+}
+.button-signin, .button-joinnow {
+     border-style: solid;
+    border-width: 0.800px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+}
+.button-joinnow:hover{
+    background-color: #090909b1;
+}
+.button-signin:hover{
+    background-color: #72757523;
+}
+
+.button-signin{
+    color: #1e3932;
+    background: none;
+    margin-right: 16px;
+}
+.button-joinnow{
+    background-color: #1e3932;
+    color: azure;
+}
+
+
+
+h1, h2{
+    margin: 0;
+}
+.content-column{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+.img-1{
+    width: 720px;
+    height: auto;
+}
+.flex-large{
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0 32px 0;
+}
+.image-big{
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+}
+.description{
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #1e3932;
+    padding: 32px 40px;
+    
+
+}
+.tomake-center{
+    width: 83%;
+    text-align: center;
+
+}
+.heading-large{
+    color: #1e3932;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+
+}
+.notes-large{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.notes-small{
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.button-b{
+    color: #1e3932;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    text-align: center;
+    margin-top: 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.button-b:hover{
+    background-color: #72757523;
+    
+}
+.flex-small{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 32px 0 32px 0;
+
+}
+.heading-small{
+    font-size: 24px;
+    color: #1e3932;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+strong{
+    font-weight: bold;
+}
+.footnote{
+    display: flex;
+    margin-top: 32px;
+    box-sizing: content-box;
+    flex-direction: column;
+    align-items: center;
+    height: 167px;
+    
+}
+.flex-foot{
+    display: flex;
+    flex-direction:row;
+    width: 70%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+
+    
+    
+}
+.content-01{
+    display: block;
+    font-size: 13px;
+    padding: 32px 0;
+    line-height: 24px;
+    text-align: center;
+    width: 630px;
+}
+main{
+    box-shadow: 2px 2px 2px   rgba(0, 0, 0,0.1);   
+}
+footer{
+    padding: 24px 0;
+    height: auto;
+}
+.nav-foot{
+    padding: 0 40px;
+}
+.flex-footer{
+    display: flex;
+}
+.footer-column-heading{
+    margin-bottom: 24px;
+    font-size: 19px;
+    display: block;
+    font-weight: 100;
+    letter-spacing: 0.16px;
+    color: #3f3f3f;
+}
+ul.ft-inline-block {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+}
+li.ft-inline-block{
+    display: list-item;
+}
+.footer-column-1{
+    width: 190px;
+    display: inline-block;
+    margin-left: 32px;
+}
+.footer-column{
+    width: 190px;
+}
+.footer-column-1 a{
+    padding-top: 8px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.58);
+}
+.footer-column a{
+    padding-top: 8px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.58);
+}
+.footer-list{
+    margin-bottom: 20px;
+}
+a.footer-links:hover{
+    color: #1e3932;
+}
+hr{
+    margin: 32px 0;
+    padding: 0;
+    border-color: rgb(255, 255, 255);
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    align-items: center;
+}
+.footer-icons a{
+    margin-right: 16px;
+    color: rgb(20, 20, 20);
+}
+.footer-icons a:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+    transform-box: ;
+    border-color: #1e3932;
+    border-width: 4px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+.footer-info a{
+    padding: 0 16px;
+    text-decoration: none;
+    color: rgb(48, 44, 44);
+    font-weight: 100;
+}
+.footer-info a:hover{
+    text-decoration: underline;
+}
+.verticalline{
+    padding: 0 8px;
+    color: #3e3e3e;
+    font-weight: 100;
+}
+.copy{
+    padding: 16px 0;
+    font-weight: 100;
+    font-size: small;
+    color: #565555;
+
+}
